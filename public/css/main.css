@@ -1,0 +1,151 @@
+html
+{
+    scroll-behavior: smooth;
+}
+*
+{
+    font-family: 'Roboto Slab';
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Home Section */
+#title
+{
+    color:white;
+    font-size: 100px;
+    opacity: 0.9;
+    margin-top: 10rem;
+}
+#home
+{
+    width: 100%;
+    height: 100%;
+    background: #DB5461;
+    text-align: center;
+}
+#buttonhome
+{
+    text-align: center;
+    border: 3px solid white;
+    font-size: 18pt;
+    padding: 6px;
+    color:white;
+    display: inline-block;
+    transition: 0.5s;
+    margin: 5rem 0rem 0rem 1rem
+}
+#buttonhome:hover
+{
+    cursor: pointer;
+    background: white;
+    color: #DB5461;
+    border: 2px solid #DB5461;
+    transition: 0.5s;
+}
+
+/* About Section*/
+#about
+{
+    width: 100%;
+    height: 100%;
+    background: #88CCF1;
+    text-align: center;
+}
+#AboutTitle
+{
+    color:white;
+    font-size: 100px;
+    opacity: 0.9;
+    margin-top: 6rem;
+}
+#buttonabout
+{
+    text-align: center;
+    border: 3px solid white;
+    font-size: 18pt;
+    padding: 6px;
+    color:white;
+    display: inline-block;
+    transition: 0.5s;
+    margin: 5rem 0rem 0rem 1rem
+}
+#buttonabout:hover
+{
+    cursor: pointer;
+    background: white;
+    color: #88CCF1;
+    border: 2px solid #88CCF1;
+    transition: 0.5s;
+}
+
+/* Projects Section*/
+#projects
+{
+    width: 100%;
+    height: 100%;
+    background: #D972FF;
+    text-align: center;
+}
+#ProjectTitle
+{
+    color:white;
+    font-size: 100px;
+    opacity: 0.9;
+    margin-top: 6rem;
+}
+#buttonproject
+{
+    text-align: center;
+    border: 3px solid white;
+    font-size: 18pt;
+    padding: 6px;
+    color:white;
+    display: inline-block;
+    transition: 0.5s;
+    margin: 5rem 0rem 0rem 1rem
+}
+#buttonproject:hover
+{
+    cursor: pointer;
+    background: white;
+    color: #D972FF;
+    border: 2px solid #D972FF;
+    transition: 0.5s;
+}
+
+/* Contact Section */
+#contact
+{
+    width: 100%;
+    height: 100%;
+    background: #58BC82;
+    text-align: center;
+}
+#ContactTitle
+{
+    color:white;
+    font-size: 100px;
+    opacity: 0.9;
+    margin-top: 6rem;
+}
+#buttoncontact
+{
+    text-align: center;
+    border: 3px solid white;
+    font-size: 18pt;
+    padding: 6px;
+    color:white;
+    display: inline-block;
+    transition: 0.5s;
+    margin: 5rem 0rem 0rem 1rem
+}
+#buttoncontact:hover
+{
+    cursor: pointer;
+    background: white;
+    color: #58BC82;
+    border: 2px solid #58BC82;
+    transition: 0.5s;
+}
