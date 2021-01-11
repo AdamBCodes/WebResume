@@ -1,0 +1,11 @@
+html
+{
+    scroll-behavior: smooth;
+}
+*
+{
+    font-family: 'Roboto Slab';
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}

@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/projects.css">
+
+        <script src="js/pageController.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div id="home">
+                <h1 id="title">Adam Barnard</h1>
+                <div id="buttonhome" onclick="ToAbout()">About</div>
+                <div id="buttonhome" onclick="ToProjects()">Projects</div>
+                <div id="buttonhome" onclick="ToContact()">Contact</div>
+            </div>
+            <div id="about">
+                <h1 id="AboutTitle">About</h1>
+                <div id="buttonabout" onclick="ToHome()">Back Home</div>
+            </div>
+            <div id="projects">
+                <h1 id="ProjectTitle">Projects</h1>
+                <div id="buttonproject" onclick="ToHome()">Back Home</div>
+            </div>
+            <div id="contact">
+                <h1 id="ContactTitle">Contact</h1>
+                <div id="buttoncontact" onclick="ToHome()">Back Home</div>
+            </div>
+        </div>
+    </body>
+</html>
