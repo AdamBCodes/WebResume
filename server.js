@@ -4,6 +4,7 @@ var app = express();
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
+    console.log("User:", req.ip, "| Requested", req.url);
     res.writeHead(200, {'Content-Type': 'text/html'});
     fs.readFile('./index.html', function (err, data) {
         if (err) {
@@ -16,6 +17,6 @@ app.get('/', (req, res) => {
     });
 });
 
-app.listen(4000, ()=>{
-    console.log("Listening on Port 4000");
+app.listen(80, ()=>{
+    console.log("Listening on Port 80");
 });
